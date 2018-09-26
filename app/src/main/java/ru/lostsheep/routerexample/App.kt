@@ -12,9 +12,7 @@ import ru.lostsheep.navigation.Router
 class App : Application() {
 
     companion object {
-        private var instance: App? = null
         private var navigation: Navigation<Router>? = null
-
 
         val navigatorHolder: NavigationHolder
             get() = navigation!!.getNavigationHolder()
